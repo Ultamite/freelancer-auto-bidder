@@ -1,4 +1,3 @@
-```markdown
 **This project was for practice, I understand Freelancer.com prohibits the use of webscraping and I do not use this to write bids for my projects. This was purely for practice and education.**
 
 # Freelance Bid Writer
@@ -28,11 +27,11 @@ WARNING: Use responsibly. Automating bid submission may violate site terms of se
 	- torch (optional — only for GPU detection; install with CUDA-enabled wheel if you want GPU support)
 
 Install required packages (example):
-```powershell
+powershell
 pip install selenium ollama python-dotenv
 # Optional: install PyTorch with CUDA support if you want GPU detection/use
 # See https://pytorch.org/get-started/locally/ for the correct command for your platform
-```
+
 
 If you plan to run models locally through Ollama, make sure Ollama is running and the model referenced in `main.py` is downloaded and available (e.g., `llama3.1:8b`).
 
@@ -40,10 +39,10 @@ If you plan to run models locally through Ollama, make sure Ollama is running an
 
 1. Create a `.env` file in the project folder with your Freelancer credentials (used only for logging in):
 
-```text
+text
 freelancer_username=you@example.com
 freelancer_password=your_password_here
-```
+
 
 2. Ensure `chromedriver.exe` is in `C:/SeleniumDrivers` or update the code to point to your chromedriver location.
 
@@ -53,9 +52,9 @@ freelancer_password=your_password_here
 
 Run the script and enter the project URL when prompted:
 
-```powershell
+powershell
 python main.py
-```
+
 
 The script will:
 
